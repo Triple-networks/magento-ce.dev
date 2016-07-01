@@ -84,5 +84,6 @@ php ${INSTALL_DIR}/htdocs/shell/apply-updates.php run
 rm -rf ${INSTALL_DIR}/htdocs/var/*
 rm ${INSTALL_DIR}/htdocs/maintenance.flag
 
+chown -R $USER:$USER $INSTALL_DIR
 echo "installed"
 
